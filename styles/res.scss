@@ -1,0 +1,41 @@
+// screen < 500
+@media screen and (max-width: 500px) {
+    html {
+        .rj-top-nav-container {
+            display: none;
+        }
+
+        .rj-mobile-nav-container {
+            display: block;
+            position: fixed;
+            bottom: 2%;
+            width: 100%;
+
+            .mobile-nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 2%;
+                margin: auto;
+                border: 1px solid #000;
+                border-radius: 30px;
+                margin: 2%;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+// screen < 768
+@media screen and (max-width: 768px) {
+    .rj-top-nav-container {
+        .top-nav {
+            flex-wrap: wrap;
+            justify-content: center !important;
+            margin: auto;
+        }
+    }
+}

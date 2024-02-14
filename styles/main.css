@@ -1,5 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
-  background-color: red;
+  font-family: "Poppins", sans-serif;
+}
+html .rj-top-nav-container {
+  width: 100%;
+  margin: auto;
+}
+html .rj-top-nav-container .top-nav {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  margin: 0 5%;
+  padding: 2% 0;
+}
+html .rj-top-nav-container .top-nav .top-nav-logo {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+html .rj-top-nav-container .top-nav .top-nav-logo span {
+  color: #FE7600;
+}
+html .rj-top-nav-container .top-nav .top-nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html .rj-top-nav-container .top-nav .top-nav-menu li {
+  list-style: none;
+}
+html .rj-top-nav-container .top-nav .top-nav-menu li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+html .rj-top-nav-container .top-nav .top-nav-menu li:not(:last-child) {
+  margin-right: 15px;
+}
+html .rj-top-nav-container .top-nav .top-nav-menu li:last-child {
+  background-color: #FE7600;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+html .rj-top-nav-container .top-nav .top-nav-menu li:last-child a {
+  color: #fff;
+}
+html .rj-mobile-nav-container {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
