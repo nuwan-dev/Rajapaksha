@@ -13,6 +13,7 @@ html {
 html .rj-top-nav-container {
   width: 100%;
   margin: auto;
+  position: fixed;
 }
 html .rj-top-nav-container .top-nav {
   display: flex;
@@ -24,6 +25,7 @@ html .rj-top-nav-container .top-nav {
 }
 html .rj-top-nav-container .top-nav .top-nav-logo {
   text-decoration: none;
+  color: #fff;
   font-family: "Poppins", sans-serif !important;
   font-weight: 600;
   font-size: 20px;
@@ -44,6 +46,7 @@ html .rj-top-nav-container .top-nav .top-nav-menu li a {
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
+  color: #fff;
 }
 html .rj-top-nav-container .top-nav .top-nav-menu li:not(:last-child) {
   margin-right: 15px;
@@ -58,6 +61,15 @@ html .rj-top-nav-container .top-nav .top-nav-menu li:last-child a {
 }
 html .rj-mobile-nav-container {
   display: none;
+}
+html .rj-hero-container {
+  background-image: url("/assets/imgs/Rectangle 2hero-img.jpg");
+}
+html .rj-hero-container .hero {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

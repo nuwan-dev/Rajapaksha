@@ -16,6 +16,7 @@ html {
     .rj-top-nav-container {
         width: 100%;
         margin: auto;
+        position: fixed;
 
         .top-nav {
             display: flex;
@@ -27,7 +28,7 @@ html {
 
             .top-nav-logo {
                 text-decoration: none;
-                // color: $white;
+                color: $white;
                 font-family: $poppins !important;
                 font-weight: 600;
                 font-size: 20px;
@@ -50,6 +51,7 @@ html {
                         font-weight: 400;
                         font-size: 16px;
                         text-decoration: none;
+                        color: $white;
                     }
                 }
 
@@ -73,5 +75,17 @@ html {
     // mobile nav container
     .rj-mobile-nav-container {
         display: none;
+    }
+
+    // hero container
+    .rj-hero-container {
+        background-image: url('/assets/imgs/Rectangle\ 2hero-img.jpg');
+
+        .hero {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: $white;
+        }
     }
 }
