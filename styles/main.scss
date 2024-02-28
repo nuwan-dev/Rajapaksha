@@ -17,14 +17,16 @@ html {
         width: 100%;
         margin: auto;
         position: fixed;
+        z-index: 999 !important;
 
         .top-nav {
+            max-width: 1240px;
             display: flex;
             align-items: center;
             margin: auto;
             justify-content: space-between;
-            margin: 0 5%;
             padding: 2% 0;
+
 
             .top-nav-logo {
                 text-decoration: none;
@@ -75,17 +77,33 @@ html {
     // mobile nav container
     .rj-mobile-nav-container {
         display: none;
+        z-index: 999 !important;
     }
 
     // hero container
     .rj-hero-container {
-        background-image: url('/assets/imgs/Rectangle\ 2hero-img.jpg');
+        background-image: url('/assets/imgs/Rectangle\ 2hero-img.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 970px;
 
         .hero {
             width: 100%;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.5);
             color: $white;
+            position: relative;
+
+            .hero-txt {
+                max-width: 1240px;
+                margin: auto;
+                position: absolute;
+                top: auto;
+                bottom: auto;
+                left: auto;
+                right: auto;
+            }
         }
     }
 }
